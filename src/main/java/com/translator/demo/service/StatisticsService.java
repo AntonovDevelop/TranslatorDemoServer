@@ -1,9 +1,11 @@
 package com.translator.demo.service;
 
+import com.translator.demo.model.dto.StatisticsDto;
 import org.springframework.stereotype.Service;
-
-import java.util.Arrays;
 
 @Service
 public class StatisticsService {
+    public void sendStatisticsToFileServer(StatisticsDto statisticsDto){
+        //логика по отправке статистики на сервер
+    }
 }
