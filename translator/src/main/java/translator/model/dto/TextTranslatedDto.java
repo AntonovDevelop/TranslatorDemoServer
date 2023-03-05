@@ -1,13 +1,9 @@
-package com.translator.demo.model.dto;
+package translator.model.dto;
 
-import java.util.List;
-
-public class TextForTranslationDto {
+public class TextTranslatedDto {
     public String text;
 
-    public List<String> unclearWords;
-
-    public TextForTranslationDto(String text) {
+    public TextTranslatedDto(String text) {
         this.text = text;
     }
 
@@ -21,7 +17,7 @@ public class TextForTranslationDto {
 
     @Override
     public String toString() {
-        return "TextForTranslationDto{" +
+        return "TextTranslatedDto{" +
                 "text='" + text + '\'' +
                 '}';
     }

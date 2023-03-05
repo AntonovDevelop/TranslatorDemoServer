@@ -1,4 +1,4 @@
-package com.translator.demo.model;
+package translator.model;
 
 public class TextForTranslationModel {
 }

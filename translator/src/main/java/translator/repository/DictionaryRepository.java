@@ -1,4 +1,4 @@
-package com.translator.demo.repository;
+package translator.repository;
 
 public interface DictionaryRepository {
     String getTranslation(String text);

@@ -1,9 +1,9 @@
-package com.translator.demo.service;
+package translator.service;
 
-import com.translator.demo.model.dto.TextForTranslationDto;
-import com.translator.demo.model.dto.TextTranslatedDto;
-import com.translator.demo.repository.DictionaryRepository;
-import com.translator.demo.repository.FileDictionaryRepository;
+import translator.model.dto.TextForTranslationDto;
+import translator.model.dto.TextTranslatedDto;
+import translator.repository.DictionaryRepository;
+import translator.repository.FileDictionaryRepository;
 import org.springframework.stereotype.Service;
 
 @Service

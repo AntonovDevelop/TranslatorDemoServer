@@ -1,4 +1,4 @@
-package com.translator.demo.repository;
+package translator.repository;
 
 public class FileDictionaryRepository implements DictionaryRepository {
 

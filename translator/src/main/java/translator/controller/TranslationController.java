@@ -1,10 +1,10 @@
-package com.translator.demo.controller;
+package translator.controller;
 
-import com.translator.demo.model.dto.TextForTranslationDto;
-import com.translator.demo.model.dto.TextTranslatedDto;
-import com.translator.demo.service.TranslationService;
+import translator.model.dto.TextForTranslationDto;
+import translator.model.dto.TextTranslatedDto;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
+import translator.service.TranslationService;
 
 @RestController
 public class TranslationController {

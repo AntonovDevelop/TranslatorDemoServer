@@ -2,7 +2,9 @@ package com.translator.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
 
+@ComponentScan(basePackages = {"statistics", "translator"})
 @SpringBootApplication
 public class DemoApplication {
 

@@ -1,6 +1,6 @@
-package com.translator.demo.service;
+package statistics.service;
 
-import com.translator.demo.model.dto.StatisticsDto;
+import statistics.model.dto.StatisticsDto;
 import org.springframework.stereotype.Service;
 
 @Service
